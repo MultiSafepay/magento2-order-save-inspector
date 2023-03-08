@@ -1,0 +1,27 @@
+{
+    "name": "multisafepay/magento2-order-save-inspector",
+    "description": "Debug when the order is being saved",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "MultiSafepay",
+            "email": "integration@multisafepay.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "multisafepay/magento2-core": "^2.20",
+        "magento/framework": "^102.0|^103.0",
+        "magento/module-sales": "^102.0|^103.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MultiSafepay\\OrderSaveInspector\\": ""
+        }
+    }
+}
