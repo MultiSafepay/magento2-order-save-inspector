@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "multisafepay/magento2-core": "^2.20",
+        "multisafepay/magento2-core": "^2.20|^3",
         "magento/framework": "^102.0|^103.0",
         "magento/module-sales": "^102.0|^103.0",
         "ext-json": "*"

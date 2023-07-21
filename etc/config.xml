@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <multisafepay>
+            <multisafepay_order_save_inspector>
+                <active>0</active>
+                <backtrace_depth>30</backtrace_depth>
+            </multisafepay_order_save_inspector>
+        </multisafepay>
+    </default>
+</config>
