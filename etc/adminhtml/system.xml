@@ -19,7 +19,6 @@
                 <field id="backtrace_depth" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label><![CDATA[Maximum Depth]]></label>
                     <config_path>multisafepay/order_save_inspector/backtrace_depth</config_path>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <validate>validate-digits validate-not-negative-number</validate>
                     <comment><![CDATA[Defines how much of the backtrace will be logged. Only increase the amount if needed. <br />Default: 30 <br /><strong>Caution:</strong> A high backtrace depth will use more system resources ]]></comment>
                 </field>

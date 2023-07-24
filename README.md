@@ -31,8 +31,7 @@ bin/magento module:enable MultiSafepay_OrderSaveInspector
 
 ## Configuration
 
-To activate the feature, go to Stores > Configuration > MultiSafepay > Order Save Inspector > Enabled
-Set the value to Yes.
+To activate the feature, go to Stores > Configuration > MultiSafepay > Order Save Inspector > Enabled and Set the value to Yes.
 
 You can also change the maximum depth to configure how deep you want the debugger to log the backtrace.
 We recommend to only change this when the default value does not go far enough as logging a lot of lines can impact the performance of your store.
