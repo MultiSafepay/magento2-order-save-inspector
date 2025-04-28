@@ -30,7 +30,7 @@ class Config extends CoreConfig
      * @param int|null $storeId
      * @return mixed
      */
-    public function getOrderSaveInspectorValue(string $field, int $storeId = null)
+    public function getOrderSaveInspectorValue(string $field, ?int $storeId = null)
     {
         return $this->scopeConfig->getValue(
             sprintf(self::ORDER_SAVE_INSPECTOR_PATH_PATTERN, $field),
